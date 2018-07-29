@@ -27,13 +27,15 @@ public class FinalPI {
         System.out.println(nomearq);
       
         processaImagem imagem = new processaImagem(nomearq);
-        //imagem.printaimagem();
         System.out.println("Insira o nome para salvar");
         imagem.nomesalvar = infile.nextLine();
         //imagem.passabaixa();
-        imagem.passaalta();
+        //imagem.passaalta();
+        imagem.sobel();
+        //imagem.prewitt();
+        //imagem.sobel2();
+        //imagem.isotropico();
         System.out.print("\n\n\n\n\n\n\n\n");
-        //imagem.printaaux();
     }
 
     
